@@ -22,7 +22,7 @@ def isQueenSafe(r,c):
 
 def nQueen(r,c):
     while(c<n):
-        if(isQueenSafe(r,c)==True):
+        if(isQueenSafe(r,c)==False):
             c+=1
         else:
             temp_list.append((r,c))
